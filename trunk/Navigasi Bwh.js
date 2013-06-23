@@ -1,23 +1,14 @@
 /*
 * ======================================================================
 * ----------------------------------------------------------------------
-* zFPmenu:	zon Fixed-Position Navigation/Share Menu
-* Author:	zon
-* Website:	http://inimu.com
+* Navigasi Bawah:	Anime Bebas
+* Author:	Yusuke Hideyori
+* Website:	http://animebebas.blogspot.com
 * ----------------------------------------------------------------------
 * You may use and/or modify the codes below and its associated files
 * as long as you leave the author credit remain intact
 * ----------------------------------------------------------------------
 * ======================================================================
-*/
-/*
-* ----------------------------------------------------------------------
-* Credits:
-* 1. CSS Drop-Down Menu by Live Web Institute (http://www.lwis.net)
-* 2. Scrolling with jQuery by Codrops (http://tympanus.net/codrops)
-* 3. addLoadEvent by Simon Willison (http://simonwillison.net/)
-* 4. jQuery by jQuery Javascript Library (http://www.jquery.com)
-* ----------------------------------------------------------------------
 */
 
 
@@ -25,7 +16,7 @@
 // user variable:
 // ---------------------------------------------------------------------
 var zfpm_colorTheme = 'dark';			// 'dark' or 'light'
-var zfpm_customBackgroundImage = '';	// example: 'http://example.com/path/to/image.jpg'
+var zfpm_customBackgroundImage = '';	// example: ''
 var zfpm_customBackgroundColor = '';	// example: '#FFFFFF'
 var zfpm_shareBox = 'yes';				// 'yes' or 'no'
 var zfpm_shareBoxPosition = 'left';		// 'left' or 'right'
@@ -331,7 +322,7 @@ zfpm_ulTag.appendChild(zfpm_navSpacerLi);
 var zfpm_infoLi=document.createElement('li');
 zfpm_infoLi.id = 'zfpm_infoLi';
 zfpm_infoLi.className = 'zfpm_trans';
-zfpm_infoLi.innerHTML = '<a id="zfpm_cp" class="zfpm_cp" onclick="this.blur();" href="http://inimu.com/widget/zfpmenu/" title="zFPmenu: Fixed-Position Navigation/Share Menu" target="_blank"><img alt="i" title="zFPmenu: Fixed-Position Navigation/Share Menu" width="16" height="16" border="0" src="'+zfpm_imgFolder+'info.png" /></a>';
+zfpm_infoLi.innerHTML = '<a id="zfpm_cp" class="zfpm_cp" onclick="this.blur();" href="http://animebebas.blogspot.com/p/kode-etik-fansub.html" title="Kode Etik Fansub" target="_blank"><img alt="i" title="Kode Etik Fansub" width="16" height="16" border="0" src="'+zfpm_imgFolder+'info.png" /></a>';
 zfpm_ulTag.appendChild(zfpm_infoLi);
 
 
