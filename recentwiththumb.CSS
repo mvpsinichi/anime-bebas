@@ -38,12 +38,12 @@
 .itemposts h6 {
   margin:0px auto 2px;
   font:bold 12px/14px Arial,Sans-Serif;
-  background-color:#000;
-  background-image:-webkit-linear-gradient(#000, #AABD30);
-  background-image:-moz-linear-gradient(#000, #AABD30);
-  background-image:-ms-linear-gradient(#000, #AABD30);
-  background-image:-o-linear-gradient(#000, #AABD30);
-  background-image:linear-gradient(#000, #AABD30);
+  background-color:#000000;
+  background-image:-webkit-linear-gradient(#000000, #AABD30);
+  background-image:-moz-linear-gradient(#000000, #AABD30);
+  background-image:-ms-linear-gradient(#000000, #AABD30);
+  background-image:-o-linear-gradient(#000000, #AABD30);
+  background-image:linear-gradient(#000000, #AABD30);
   padding:10px 15px;
   text-transform:none;
   color:white;
@@ -88,7 +88,7 @@
   padding:5px 10px;
   margin:10px 0px 0px;
   background-color:#FAFAE7;
-  color:#ccc;
+  color:#cccccc;
   overflow:hidden;
 }
 
@@ -100,7 +100,7 @@
 }
 
 .itemposts .itemfoot a.itemrmore:hover {
-  color:#000;
+  color:#000000;
   text-decoration:underline;
 }
 
